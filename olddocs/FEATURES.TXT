@@ -1,0 +1,14 @@
+Planned features for the future:
+
+-A menu to customize how players want to experience the mod (I think it's especially helpful in multiplayer, examples are changing what berserk spawns, replacing invunrabilty with the Demon Rune and adding extra hud elements like showing all ammo types on the screen and level stats)
+-Making the player automatically drop the regular Shotgun when he receives the Charged Burst Shotgun.
+-A 'LOW HEALTH' message when the player's health is 30 or below.
+-Brutal Doom like executions (For chainsaw and usable fists)
+-Frag Grenades and Throwable Teleporters for competitive modes (as a togglable option that can also be used in single player and coop).
+-Making the monsters and opposing players go into a longer pain state (players will be immobile and unable to attack instead) when hit by the Plasma Rifle's stun shot.
+-A new font.
+-More Doom 4 like monsters (Weak projectile and lazer possessed, Jetpack Revenants and lazer shooting Mancubuses).
+-Different teleportation effect for competitive modes.
+-Better wind up and down function for Chaingun (Currently you cannot fire when it's in it's wind down state).
+-A Static Cannon that damages is dependent on player movement speed on the ground.
+And some other things that aren't on my mind right now.

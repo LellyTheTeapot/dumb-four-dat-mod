@@ -1,0 +1,18 @@
+Dumb 4 - Git Release
+
+Anyone wondered where this mod went? I haven't been working on it for a LONG time (yes that black box is still there). Last time I developed it was back in November 12, 2015, and where were only 2 major releases.
+
+I'll rarely contribute to this repository because I want to focus on more bigger projects than a traditional Doom 2016 weapons and monsters mod. I may come back to contribute little things like the pistol, more balancing and overall a better experience. I would like to continute working on it but plans on bigger projects and SLADE3 not working on my new computer is pushing me back. I only created this Git repository incase if I or someone wanted to make tiny contributions. The first commit will just be Alpha 2 with extra unnessesary shit added.
+
+HOW TO PLAY
+
+-Get GZDoom. A real one, not a shitty one (O=http://devbuilds.drdteam.org/gzdoom/* X=http://forum.drdteam.org/viewforum.php?f=23*) or get Zandronum 3.0. This is less technologically advanced than GZDoom's Git releases but it is more multiplayer friendly than GZDoom. Dumb 4 was primarily designed for it. (https://zandronum.com/download) You may also get the original ZDoom which lacks the OpenGL-exclusive features. (O=http://devbuilds.drdteam.org/zdoom/* X=http://zdoom.org/Download*)
+-Aquire doom2.wad or the Final Doom wads (tnt.wad and plutonia.wad). If you do not currently own them, Steam sells the entire classic trilogy for 20 US dollars. (http://store.steampowered.com/sub/18397/**) You may also use doom.wad but because Dumb 4 uses has DECORATE code that use Doom II's exclusive content you may encounter compatibility issues.
+-If you are using Windows, Use _zip.bat and type in either pk3, zip or pk7 to compress all the content in the pk3 folder into a compressed file so you can play it. Unix and GNU/Linux users will have to wait. The alternative method for Unix and GNU/Linux users I know is to compress all files in the pk3 folder into a .zip folder with a file manager. Optional but you can change the file extension of the .zip file to .pk3 since .pk3's are basically .zip files with a different file extention.
+-Drag the mod into the .exe file of the source port you are using. Alternatively you can edit the gzdoom-<username>.ini, zdoom-<username>.ini or zandronum-<username>.ini files to automatically load Dumb 4 on startup.
+-pleyh
+
+Credits in CREDITS.txt
+
+*These links only contain downloads to pre-compiled Git releases for Windows (and OS X for original ZDoom). GNU/Linux (etc.) users will need to compile a Git release themselves from these git repositories. (GZDoom=https://github.com/coelckers/gzdoom ZDoom=https://github.com/rheit/zdoom) Tutorials for compiling these are here. (GZDoom=http://zdoom.org/wiki/Compile_GZDoom_on_Linux ZDoom=http://zdoom.org/wiki/Compile_ZDoom_on_Linux) OS X users can download or compile a more OS X friendly version of GZDoom here. (https://alexey-lysiuk.github.io/gzdoom/) Instructions for compiling on OS X are here. (http://zdoom.org/wiki/Compile_ZDoom_on_Mac_OS_X)
+**The Steam release is only downloadable if you are using Windows. OS X and GNU/Linux users will need to use SteamCMD and use the following command "./steamcmd.sh +@sSteamCmdForcePlatformType windows +login ^teapot^ +force_install_dir ./doom/ +app_update ^number^ validate +quit" (without the ^'s, replace ^teapot^ with your steam login name and ^number^ with the numbered id of the game data you want to install.)

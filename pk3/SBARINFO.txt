@@ -1,0 +1,41 @@
+StatusBar fullscreen, fullscreenoffsets
+{
+DrawImage "BARLEFT", 60, -60;
+Alpha 0.5
+
+DrawImage "BARRIGHT", -319, -60;
+Alpha 0.5
+
+DrawImage "HEALTH", 124, -21;
+Alpha 0.9
+
+DrawImage "ARMORICO", 126, -50;
+Alpha 0.9
+
+DrawImage "GRENICON", -226, -50;
+Alpha 0.9
+
+DrawBar "BARFULL", "BARHEMPY", Health, Horizontal, 153, -23;
+Alpha 0.8
+
+DrawBar "BARAMMO", "BAREMPTY", Armor, Horizontal, 153, -52;
+Alpha 0.8
+
+DrawBar "BARAMMO", "BAREMPTY", Ammo1, Horizontal, reverse, -306, -23;
+Alpha 0.8
+
+DrawBar "BARCHARG", "BARCHARE", Ammo2, Horizontal, reverse, -320, -60;
+Alpha 0.8
+
+DrawKeyBar 14, horizontal, 6, -300, -45;
+Alpha 0.8
+
+DrawNumber 14, BIGFONT, white, Health, whennotzero, alignment(left), 78, -21;
+
+DrawNumber 14, BIGFONT, white, Armor, whennotzero, alignment(left), 78, -50;
+
+DrawNumber 14, BIGFONT, white, Ammo1, whennotzero, alignment(right), -167, -45;
+
+DrawNumber 14, CONFONT, untranslated, Dumb4FragGrenadeUse, alignment(center), -224, -47;
+
+}

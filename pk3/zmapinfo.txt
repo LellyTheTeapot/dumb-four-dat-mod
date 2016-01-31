@@ -1,0 +1,72 @@
+GameInfo
+{
+TitleMusic = "D4_THEME"
+TitleTime = "21"
+DimColor = "Black"
+DimAmount = 0.65
+TitlePage = "DOOMLOGO"
+InfoPage = "LOLWELL"
+CreditPage = "DUMB_4"
+IntermissionMusic = "DUMBINTR"
+intermissioncounter = false
+cursorpic = "DUMB4CUR"
+advisorytime = 1
+finalpage = "BOSSBACK"
+}
+
+ClearSkills
+
+Skill Wimpy
+{
+SpawnFilter = Easy
+Name = "Wimpy"
+TextColor = Blue
+Key = W
+MustConfirm = "Try not to shoot yourself in the foot"
+}
+
+Skill Harsh
+{
+SpawnFilter = Normal
+Name = "Harsh"
+TextColor = Green
+Key = H
+DisableCheats
+MustConfirm = "You can hit a moving target...usually"
+}
+
+Skill Violent
+{
+SpawnFilter = Hard
+Name = "Violent"
+TextColor = Yellow
+Key = V
+DisableCheats
+MustConfirm = "Shoot first, ask questions later"
+}
+
+Skill NewNightmare
+{
+SpawnFilter = Nightmare
+Name = "Nightmare"
+TextColor = Red
+Key = N
+FastMonsters
+DisableCheats
+RespawnTime = 12
+MustConfirm = "An unstoppable death machine"
+}
+
+Skill AbsoluteHell
+{
+SpawnFilter = Nightmare
+Name = "Absolute HELL"
+TextColor = Black
+Key = H
+DisableCheats
+FastMonsters
+NoPain
+RespawnTime = 5
+DamageFactor = 90000
+MustConfirm = "One hit kills, the swarm never stops"
+}

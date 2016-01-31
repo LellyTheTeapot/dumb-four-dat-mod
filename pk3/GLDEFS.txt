@@ -1,0 +1,258 @@
+//GLDEFS from Realm667 monster sprites
+//'Object' definitions edited for optimization to Dumb 4
+
+PointLight ASGGuyAttack
+{
+Color 1.0 0.8 0.2
+Size 30
+}
+
+Object ChargedShotgunZombie
+{
+Frame ASGZF { Light ASGGuyAttack }
+}
+
+
+
+BrightMap Sprite ASGZE1
+{
+Map BMASGZE1
+DisableFullBright
+}
+
+BrightMap Sprite ASGZE2E8
+{
+Map BMASGZE2
+DisableFullBright
+}
+
+BrightMap Sprite ASGZE3E7
+{
+Map BMASGZE3
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF1
+{
+Map BMASGZF1
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF2F8
+{
+Map BMASGZF2
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF3F7
+{
+Map BMASGZF3
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF4F6
+{
+Map BMASGZF4
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF5
+{
+Map BMASGZF5
+DisableFullBright
+}
+
+FlickerLight2 RifleCommandoAttack
+{
+color 1.0 0.8 0.2
+size 48
+secondarySize 56
+interval 1
+offset 0 40 0
+}
+
+Object MicroMissileGuy
+{
+Frame ACPSF { Light RifleCommandoAttack }
+}
+
+
+
+
+BrightMap Sprite ACPSE1
+{
+Map ACPFTRE1
+DisableFullBright
+}
+
+BrightMap Sprite ACPSE2E8
+{
+Map ACPFTRE2
+DisableFullBright
+}
+
+BrightMap Sprite ACPSE3E7
+{
+Map ACPFTRE3
+DisableFullBright
+}
+
+BrightMap Sprite ACPSE4E6
+{
+Map BMBLACK
+DisableFullBright
+}
+
+BrightMap Sprite ACPSE5
+{
+Map BMBLACK
+DisableFullBright
+}
+
+BrightMap Sprite ACPSF1
+{
+Map ACPFTRF1
+DisableFullBright
+}
+
+BrightMap Sprite ACPSF2F8
+{
+Map ACPFTRF2
+DisableFullBright
+}
+
+BrightMap Sprite ACPSF3F7
+{
+Map ACPFTRF3
+DisableFullBright
+}
+
+BrightMap Sprite ACPSF4F6
+{
+Map ACPFTRF4
+DisableFullBright
+}
+
+BrightMap Sprite ACPSF5
+{
+Map ACPFTRF5
+DisableFullBright
+}
+
+
+
+
+FlickerLight2 ChaingunMajorAttack
+{
+color 1.0 0.8 0.2
+size 48
+secondarySize 56
+interval 1
+offset 0 40 0
+}
+
+Object Dumb4ChaingunGuy
+{
+Frame CPS2F { Light ChaingunMajorAttack }
+}
+
+
+
+
+BrightMap Sprite CPS2E1
+{
+Map BMCPS2E1
+DisableFullBright
+}
+
+BrightMap Sprite CPS2E2E8
+{
+Map BMCPS2E2
+DisableFullBright
+}
+
+BrightMap Sprite CPS2E3E7
+{
+Map BMCPS2E3
+DisableFullBright
+}
+
+BrightMap Sprite CPS2E4E6
+{
+Map BMCPS2E4
+DisableFullBright
+}
+
+BrightMap Sprite CPS2F1
+{
+Map BMCPS2F1
+DisableFullBright
+}
+
+BrightMap Sprite CPS2F2F8
+{
+Map BMCPS2F2
+DisableFullBright
+}
+
+BrightMap Sprite CPS2F3F7
+{
+Map BMCPS2F3
+DisableFullBright
+}
+
+BrightMap Sprite CPS2F4F6
+{
+Map BMCPS2F4
+DisableFullBright
+}
+
+BrightMap Sprite CPS2F5
+{
+Map BMCPS2F5
+DisableFullBright
+}
+
+PointLight SSGZombieAttack
+{
+Color 1.0 0.8 0.2
+Size 30
+}
+
+Object Dumb4SSGGuy
+{
+Frame GPOSF { Light SSGZombieAttack }
+}
+
+
+BrightMap Sprite GPOSF1
+{
+Map BMGPOSF1
+DisableFullBright
+}
+
+BrightMap Sprite GPOSF2F8
+{
+Map BMGPOSF2
+DisableFullBright
+}
+
+BrightMap Sprite GPOSF3F7
+{
+Map BMGPOSF3
+DisableFullBright
+}
+
+BrightMap Sprite GPOSF4F6
+{
+Map BMGPOSF4
+DisableFullBright
+}
+
+BrightMap Sprite GPOSF5
+{
+Map BMGPOSF5
+DisableFullBright
+}
+
+//some other shit goes here

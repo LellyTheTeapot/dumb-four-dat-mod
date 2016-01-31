@@ -1,0 +1,6 @@
+CLEARPLAYERCLASSES
+ADDPLAYERCLASS Dumb4Player
+
+addmenukey "Throw Grenade" Dumb4_ThrowGrenade
+alias Dumb4_ThrowGrenade "use Dumb4FragGrenadeUse"
+defaultbind G Dumb4_ThrowGrenade

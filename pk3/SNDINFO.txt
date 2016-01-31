@@ -1,0 +1,298 @@
+/////////////////silence/////////////////
+
+Misc/insideaboxwithoutspeakers			nuthin
+
+/////////////////For any placeholders/////////////////
+
+Misc/Placeholder			JUSTHOLD
+
+/////////////////Weapons/////////////////
+
+//Weapon Pickup
+
+misc/w_pkup			WEPNPKUP
+
+//Low Ammo
+
+Weapons/LowAmmo			lowammo3
+
+//Shotgun
+
+$random Weapons/ShottyFire { Weapons/ShottyFire1 Weapons/ShottyFire2 Weapons/ShottyFire3 }
+Weapons/ShottyFire1			SHTFIRE1
+Weapons/ShottyFire2			SHTFIRE2
+Weapons/ShottyFire3			SHTFIRE3
+
+Weapons/ShottyCock			SHOTCOCK
+
+Weapons/ShottyUse			SHOTGUSE
+
+//Charged Burst Shotgun
+
+Weapons/ChargeReady			CHARGEE1
+
+Weapons/ChargeEngage1			CHARGEE2
+Weapons/ChargeEngage2			CHARGEE3
+Weapons/ChargeEngage3			CHARGEE4
+
+//Super Shotgun
+
+Weapons/SuperBlast	    	DBLFIRE1
+
+Weapons/SuperClick	    	DBLCLICK
+
+$random Weapons/SuperShove { Weapons/SuperShove1 Weapons/SuperShove2 Weapons/SuperShove3 }
+Weapons/SuperShove1	    	DBLINSR1
+Weapons/SuperShove2	    	DBLINSR2
+Weapons/SuperShove3	    	DBLINSR3
+
+Weapons/SuperClack	    	DBLCLACK
+
+//Heavy Machine Gun
+
+Weapons/HeavyUse	    	RIFLEUSE
+
+$random Weapons/HeavyFire { Weapons/HeavyFire1 Weapons/HeavyFire2 Weapons/HeavyFire3 Weapons/HeavyFire4 Weapons/HeavyFire5 }
+Weapons/HeavyFire1	    	RFLFIRE1
+Weapons/HeavyFire2	    	RFLFIRE2
+Weapons/HeavyFire3	    	RFLFIRE3
+Weapons/HeavyFire4	    	RFLFIRE4
+Weapons/HeavyFire5	    	RFLFIRE5
+
+Weapons/HeavyScopeIn	    	RIFLEIN
+Weapons/HeavyScopeOut	    	RIFLEOUT
+
+//Heavy Machine Gun Micro Missiles
+
+$random Weapons/MicroMissileFire { Weapons/MicroMissileFire1 Weapons/MicroMissileFire2 }
+Weapons/MicroMissileFire1	    	MICRO1
+Weapons/MicroMissileFire2	    	MICRO2
+
+$random Weapons/MicroMissileExplode { Weapons/MicroMissileExplode1 Weapons/MicroMissileExplode2 Weapons/MicroMissileExplode3 }
+Weapons/MicroMissileExplode1	    	MICEXPL1
+Weapons/MicroMissileExplode2	    	MICEXPL2
+Weapons/MicroMissileExplode3	    	MICEXPL3
+
+Weapons/MicroMissilePrepare	    	 MICROPRE
+
+Weapons/MicroMissileReady	    	 MICREADY
+
+Weapons/MicroMissileEnd	    	 MICROEND
+
+Weapons/MicroMissileFlight	    	 MICROFLY
+
+//Chaingun
+
+Weapons/ChainUse	    	CHAINUSE
+
+Weapons/ChainWindUp	    	CHGNWNUP
+
+Weapons/ChainWindDn	    	CHGNWNDN
+
+$random Weapons/ChainFire { Weapons/ChainFire1 Weapons/ChainFire2 Weapons/ChainFire3 Weapons/ChainFire4 Weapons/ChainFire5 } //One or more of these sounds won't play for some reason. (This is now fixed, I accidently repeated Weapons/ChainFire1 and Weapons/ChainFire2 to CHGNFIR4 and CHGNFIR5.)
+Weapons/ChainFire1			CHGNFIR1
+Weapons/ChainFire2			CHGNFIR2
+Weapons/ChainFire3			CHGNFIR3
+Weapons/ChainFire4			CHGNFIR4
+Weapons/ChainFire5			CHGNFIR5
+
+//Rocket Launcher
+
+Weapons/RocketUse			RCKETUSE
+
+Weapons/RocketFlight			ROCKEFLY
+
+$random Weapons/RocketFire { Weapons/RocketFire1 Weapons/RocketFire2 Weapons/RocketFire3 Weapons/RocketFire4 }
+Weapons/RocketFire1	    	RKTFIRE1
+Weapons/RocketFire2	    	RKTFIRE2
+Weapons/RocketFire3	    	RKTFIRE3
+Weapons/RocketFire4	    	RKTFIRE4
+
+%random Weapons/RocketExplosion { Weapons/RocketExplosion1 Weapons/RocketExplosion2 Weapons/RocketExplosion3 Weapons/RocketExplosion4 }  //Doesn't play for some unknown reason. It does play through the PlaySound command but not from the exploding rocket.
+Weapons/RocketExplosion1	    	RKTEXPL1
+Weapons/RocketExplosion2	    	RKTEXPL2
+Weapons/RocketExplosion3	    	RKTEXPL3
+Weapons/RocketExplosion4	    	RKTEXPL4
+
+//Plasma Rifle
+
+Weapons/PlasmaUse	    	PLSMAUSE
+
+$random Weapons/PlasmaFire { Weapons/PlasmaFire1 Weapons/PlasmaFire2 Weapons/PlasmaFire3 }
+Weapons/PlasmaFire1	    	PLSFIRE1
+Weapons/PlasmaFire2	    	PLSFIRE2
+Weapons/PlasmaFire3	    	PLSFIRE3
+
+$random Weapons/PlasmaImpact { Weapons/PlasmaImpact1 Weapons/PlasmaImpact2 Weapons/PlasmaImpact3 }
+Weapons/PlasmaImpact1	    	PLSDETH1
+Weapons/PlasmaImpact2	    	PLSDETH2
+Weapons/PlasmaImpact3	    	PLSDETH3
+
+Weapons/PlasmaFlight	    	PLSFLGHT
+
+Weapons/PlasmaStunShot			STUNFIRE
+
+Weapons/GetHeatShot	    	HEATSGET
+
+Weapons/PlasmaHeatFlight		HEATFLGT
+
+Weapons/SexyShot				PLSWITCH
+
+//Vortex Rifle
+
+$random Weapons/RailgunFire { Weapons/RailgunFire1 Weapons/RailgunFire2 Weapons/RailgunFire3 }
+Weapons/RailgunFire1	    	RAILFIR1
+Weapons/RailgunFire2	    	RAILFIR2
+Weapons/RailgunFire3	    	RAILFIR3
+
+Weapons/RailgunZoomIn	    	RAILIN
+Weapons/RailgunZoomOut	    	RAILOUT
+
+Weapons/RailgunUp	    	RAILUP
+
+//BFG9000
+
+Weapons/BFGRaise	    	BFGRAISE
+
+Weapons/BFGActivate	    	BFGACTIV
+
+Weapons/BFGFire	    	BFUGFIRE
+
+$random weapons/bfgx { Weapons/BFGExplosion1 Weapons/BFGExplosion2 Weapons/BFGExplosion3 Weapons/BFGExplosion4 }
+Weapons/BFGExplosion1	    	BFGEXPL1
+Weapons/BFGExplosion2	    	BFGEXPL2
+Weapons/BFGExplosion3	    	BFGEXPL3
+Weapons/BFGExplosion4	    	BFGEXPL4
+
+//Revenant Launcher
+
+Weapons/FuckingAnnoyingSkeleton	    	FINGSKUL
+
+Weapons/ImFuckedUp	    	FUCKEDUP
+
+Weapons/ChocolateRecipe	    	CHOCLATE
+
+Weapons/BlahBlahBlah	    	BLAHBLAH
+
+//Gauss "I WILL FUCK YOU UP" Cannon
+$random Weapons/GaussActivate { Weapons/GaussActivate1 Weapons/GaussActivate2 Weapons/GaussWillFuckYouUp }
+Weapons/GaussActivate1			GAUSSPIK
+Weapons/GaussActivate2			GAUSSPIK
+Weapons/GaussWillFuckYouUp		GAUSSSWR
+
+Weapons/ErrFockedUp				GAUSFOAD
+
+//Grenade
+
+Weapons/GrenadeThrow			FRAGTHRW
+
+Weapons/GrenadeBounce			FRAGBNCE
+$alias weapons/grbnce			Weapons/GrenadeBounce
+
+$random Weapons/GrenadeExplode { Weapons/GrenadeExplode1 Weapons/GrenadeExplode2 Weapons/GrenadeExplode3 }
+Weapons/GrenadeExplode1			FRAGEXP1
+Weapons/GrenadeExplode2			FRAGEXP2
+Weapons/GrenadeExplode3			FRAGEXP3
+
+//Repeater
+
+$random Weapons/RepeaterFire { Weapons/RepeaterFire1 Weapons/RepeaterFire2 Weapons/RepeaterFire3 Weapons/RepeaterFire4 Weapons/RepeaterFire5 }
+Weapons/RepeaterFire1			REPEAT01
+Weapons/RepeaterFire2			REPEAT02
+Weapons/RepeaterFire3			REPEAT03
+Weapons/RepeaterFire4			REPEAT04
+Weapons/RepeaterFire5			REPEAT05
+
+$random Weapons/RepeaterScopedFire { Weapons/RepeaterScopedFire1 Weapons/RepeaterScopedFire2 Weapons/RepeaterScopedFire3 Weapons/RepeaterScopedFire4 Weapons/RepeaterScopedFire5 }
+Weapons/RepeaterScopedFire1		RESCOP01
+Weapons/RepeaterScopedFire2		RESCOP02
+Weapons/RepeaterScopedFire3		RESCOP03
+Weapons/RepeaterScopedFire4		RESCOP04
+Weapons/RepeaterScopedFire5		RESCOP05
+
+Weapons/RepeaterScopeIn			RESCOPIN
+Weapons/RepeaterScopeOut		RESCOPOU
+
+Weapons/GodFuckingDamnIt		RENOCLIP
+Weapons/RepeaterMyBodyIsReady	REPEBOLT
+
+/////////////////Miscellaneous/////////////////
+
+menu/activate	    	ACTIVATE
+menu/backup	    	BACKUP
+menu/prompt	    	PROMPT
+menu/cursor	    	CURSOR
+menu/change	    	CHANGE
+menu/invalid	    	INVALID
+menu/dismiss	    	DISMISS
+menu/choose	    	CHOOSE
+menu/clear	    	CLEAR
+
+misc/teleport			PLYSPAWN
+
+misc/spawn				ITEMSPWN
+
+misc/secret			 DSSECRET
+misc/p_pkup			 MEGAPKUP
+misc/spawn			 ITEMSPWN
+misc/chat			 MESSAGE
+misc/chat2			 MESSAGE
+
+jumpjet		 		 PLJUMP
+
+$alias StartupTick	 Misc/insideaboxwithoutspeakers
+
+misc/dumb4keytry		 KEYTRIE
+$alias misc/keytry		 misc/dumb4keytry
+
+/////////////////Powerups/////////////////
+
+$random misc/OMGSkeletons { misc/OMGSkeletons1 misc/OMGSkeletons2 }
+misc/OMGSkeletons1			 REVPKUP1
+misc/OMGSkeletons2			 REVPKUP2
+
+misc/dumb4supercharge			 MEGAHEAL
+
+/////////////////Items/////////////////
+
+misc/dumb4healthpickup		 HEALPICK
+$alias misc/health_pkup		 misc/dumb4healthpickup
+
+misc/dumb4healthbonus		 SMALHEAL	 
+misc/dumb4stimpack			 NORMHEAL
+misc/dumb4medkit			 LARGHEAL
+
+misc/dumb4armorpickup		 ARMORPIK
+$alias misc/armor_pkup		 misc/dumb4armorpickup
+
+misc/dumb4armorshard			 	 ARMSHARD
+misc/dumb4armor			 			 ARMORONE
+misc/dumb4armor2			 		 ARMORTWO
+
+/////////////////Ammo/////////////////
+
+misc/dumb4backpack		BKPKPKUP
+
+misc/dumb4ammopickup		 AMMOPICK
+
+$alias misc/ammo_pkup		 misc/dumb4ammopickup
+
+/////////////////Monsters/////////////////
+
+//Shotgun Guys
+$alias shotguy/attack			Weapons/ShottyFire
+
+//Heavy Machine Gun Zombie
+$alias grunt/attack 			Weapons/HeavyFire
+
+//Chaingunner
+$alias chainguy/attack			Weapons/ChainFire
+
+//Super Shotgun Zombie
+SSGUNER/sight	DSGPOSIT
+SSGUNER/SSG 	DSSGGATK
+SSGUNER/death	DSGPODTH
+SSGUNER/idle	DSGPOACT
+
+//Revenant
+skeleton/charge		SKULCHRG

@@ -1,0 +1,59 @@
+[enr]
+
+[enu default]
+
+SECRETMESSAGE = "Secret found!";
+
+LOADNET = "Loading unavalible in netgame.\n\nPress a key.";
+QLOADNET = "Quickloading unavalible in netgame.\n\nPress a key.";
+SAVEDEAD = "Saving unavalible.\n\npress a key.";
+QSPROMPT = "Save '%s'?\n\nPress Y or N.";
+QLPROMPT = "Load '%s'?\n\nPress Y or N.";
+NEWGAME = "New game unavalible in netgame.\n\nPress a key.";
+NETEND = "End game unavalible in netgame.\n\nPress a key.";
+ENDGAME = "End game?\n\npress y or n.";
+DOSY = "(Press Y to quit Dumb 4)";
+GOTARMOR = "Armor +100";
+GOTMEGA = "Armor +200";
+GOTHTHBONUS = "Health +1";
+GOTARMBONUS = "Armor +1";
+GOTSTIM = "Health +10";
+GOTMEDINEED = "Health +20";
+GOTMEDIKIT = "Health +20";
+GOTSUPER = "Soulsphere";
+GOTBLUECARD = "Blue keycard";
+GOTYELWCARD = "Yellow keycard";
+GOTREDCARD = "Red keycard";
+GOTBLUESKUL = "Blue skull key";
+GOTYELWSKUL = "Yellow skull key";
+GOTREDSKUL = "Red skull key";
+GOTINVUL = "Invulnerability";
+GOTBERSERK = "Berserk";
+GOTINVIS = "Partial Invisibility";
+GOTSUIT = "Radiation Shielding Suit";
+GOTMAP = "Computer Area Map";
+GOTVISOR = "Light Amplification Visor";
+GOTMSPHERE = "Megasphere";
+GOTCLIP = "Bullets x10";
+GOTCLIPBOX = "Bullets x50";
+GOTROCKET = "Rockets x1";
+GOTROCKBOX = "Rockets x5";
+GOTCELL = "Energy x20";
+GOTCELLBOX = "Energy x100";
+GOTSHELLS = "Shells x4";
+GOTSHELLBOX = "Shells x20";
+GOTBACKPACK = "Backpack";
+PD_BLUEO = "Blue key required";
+PD_REDO = "Red key required";
+PD_YELLOWO = "Yellow key required";
+PD_BLUEK = "Blue key required";
+PD_REDK = "Red key required";
+PD_YELLOWK = "Yellow key required";
+PD_BLUECO = "Blue card required";
+PD_REDCO = "Red card required";
+PD_YELLOWCO = "Yellow card required";
+PD_BLUESO = "Blue skull required";
+PD_REDSO = "Red skull required";
+PD_YELLOWSO = "Yellow skull required";
+NEWSAVE = "<Save New Game>";
+GGSAVED = "Game Saved";

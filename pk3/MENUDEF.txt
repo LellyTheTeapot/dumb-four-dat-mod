@@ -1,0 +1,151 @@
+//Russian Overkill and Zandronum were used as bases for the menu definition used in this mod.
+
+LISTMENU "MainMenu"
+{
+	IfGame(Doom)
+	{
+		StaticPatch 100, 0, "M_DOOM4"
+		Position 125, 100
+	}
+	
+	TextItem "New Game",			"n",	"PlayerclassMenu"
+	TextItem "Identity",	"i",	"PlayerMenu"
+	TextItem "Options",				"o",	"OptionsMenu"
+	TextItem "Load Game",			"l",	"LoadGameMenu"
+	TextItem "Save Game",			"s",	"SaveGameMenu"
+	TextItem "Quit Game",				"q",	"QuitMenu"
+}
+
+OptionMenu "CustomizeControls"
+{
+	Title "CONTROLS"
+	ScrollTop 2
+	StaticTextSwitchable 	"ENTER binds, BACKSPACE clears.", "Press a key to bind, ESC cancels.", "ControlMessage"
+	StaticText 	""
+	StaticText  "Look", 1
+	StaticText 	""
+	Control 	"Look Up",				"+lookup"
+	Control 	"Look Down",			"+lookdown"
+	Control 	"Turn Left",			"+left"
+	Control 	"Turn Right",			"+right"
+	Control 	"Mouse Look",			"+mlook"
+	Control 	"Center View",			"centerview"
+	StaticText 	""
+	Option	 	"Invert Mouse", "invertmouse", "OnOff"
+	Option	 	"Free Look", "freelook", "OnOff"
+	Slider	 	"Mouse Sensitivity", "mouse_sensitivity", 0.1, 3.0, 0.1
+	Option	 	"Mouse Prescaling", "m_noprescale", "OffOn"
+	Option	 	"Mouse Smoothing", "m_noprescale", "OnOff"
+	Submenu		"Advanced...",	"MouseOptions"
+	StaticText 	""
+	StaticText  "Movement", 1
+	StaticText 	""
+	Control 	"Forward",			"+forward"
+	Control 	"Backpedal",		"+back"
+	Control 	"Move Left",			"+moveleft"
+	Control 	"Move Right",			"+moveright"
+	Control 	"Jump",		"+jump"
+	Control 	"Crouch",				"+crouch"
+	Control 	"Strafe",				"+strafe"
+	Control 	"Run",					"+speed"
+	StaticText 	""
+	StaticText  "Combat", 1
+	StaticText 	""
+	Control 	"Fire",			"+attack"
+	Control 	"Weapon Mod",		"+altattack"
+	Control		"Weapon Mod Toggle",	"+reload"
+	Control 	"Next weapon",			"weapnext"
+	Control 	"Previous weapon",		"weapprev"
+	Control		"Weapon Slot 1",		"slot 1"
+	Control		"Weapon Slot 2",		"slot 2"
+	Control		"Weapon Slot 3",		"slot 3"
+	Control		"Weapon Slot 4",		"slot 4"
+	Control		"Weapon Slot 5",		"slot 5"
+	Control		"Weapon Slot 6",		"slot 6"
+	Control		"Weapon Slot 7",		"slot 7"
+	Control		"Weapon Slot 8",		"slot 8"
+	Control		"Weapon Slot 9",		"slot 9"
+	Control		"Weapon Slot 0",		"slot 0"
+	Control 	"Activate item",		"invuse"
+	Control 	"Next item",			"invnext"
+	Control 	"Previous item",		"invprev"
+	Control 	"Throw Grenade",	"Dumb4_ThrowGrenade"
+	Control 	"Drop item",			"invdrop"
+	Control 	"Drop Weapon",			"weapdrop"
+	StaticText 	""
+	StaticText  "Interaction", 1
+	StaticText 	""
+	Control 	"Use",			"+use"
+	Control 	"Chat",					"messagemode"
+	Control 	"Team Chat",				"messagemode2"
+	Control 	"Scoreboard",		"+showscores"
+	Control 	"Scoreboard Toggle",		"togglescoreboard"
+	Control 	"Say",					"messagemode"
+	Control 	"Team say",				"messagemode2"
+	Control 	"Screenshot",			"screenshot"
+	Control 	"Toggle automap",		"togglemap"
+	StaticText 	""
+	StaticText 	"Miscellaneous", 1
+	StaticText 	""
+	Control 	"Toggle automap",		"togglemap"
+	Control 	"Chasecam",				"chase"
+	Control 	"Coop spy",				"spynext"
+	Control 	"Screenshot",			"screenshot"
+	Control  	"Open console",			"toggleconsole"
+	StaticText	""
+	Submenu 	"Gamepad Options...",			"JoystickOptions"
+}
+
+OptionMenu "OptionsMenu"
+{
+	Title "OPTIONS"
+	Submenu "Multiplayer (Zandronum Only)",		"ZA_MultiplayerOptions"
+	StaticText ""
+	Submenu "Control",		"CustomizeControls"
+	Submenu "Gameplay",			"GameplayOptions"
+	Submenu "Compatibility",	"CompatibilityOptions"
+	Submenu "Automap",			"AutomapOptions"
+	Submenu "HUD",				"HUDOptions"
+	Submenu "Miscellaneous",	"MiscOptions"
+	Submenu "Audio",			"SoundOptions"
+	Submenu "Graphics",			"VideoOptions"
+	Submenu "Video",			"VideoModeMenu"
+	StaticText ""
+	SafeCommand "Reset to defaults",	"reset2defaults"
+	SafeCommand	"Reset to last saved",	"reset2saved"
+	Command "Go to console",			"menuconsole"
+}
+
+OptionMenu "GLPrefOptions"
+{
+	Title "OPENGL PREFERENCES"
+	Option "Sector light mode",			gl_lightmode,					"LightingModes"
+	Option "Fog mode",					gl_fogmode,						"FogMode"
+	Option "Fog forces fullbright",		gl_brightfog,					"YesNo"
+	Slider "Weapon light strength",		gl_weaponlight,					0,32, 2
+	Option "Environment map on mirrors",gl_mirror_envmap,				"OnOff"
+	Option "Enhanced night vision mode",gl_enhanced_nightvision,		"OnOff"
+	Option "ENV shows stealth monsters",gl_enhanced_nv_stealth,			"EnhancedStealth"
+	Option "Force brightness in fog",	gl_spritebrightfog,				"OnOff"
+	Option "Adjust sprite clipping",	gl_spriteclip,					"SpriteclipModes"
+	Option "Smooth sprite edges",		gl_sprite_blend,				"OnOff"
+	Option "Fuzz Style",				gl_fuzztype,					"FuzzStyle"
+	Option "Sprite billboard",			gl_billboard_mode,				"BillboardModes"
+	Option "Particle style",			gl_particles_style,				"Particles"
+	Slider "Ambient light level",		gl_light_ambient,				1.0, 255.0, 5.0
+	Option "Rendering quality",			gl_render_precise,				"Precision"
+	Option "Use vertex buffer",			gl_usevbo,						"VBOModes"
+	// [BB]
+	Option "Use models",				gl_use_models,					"OnOff"
+	Option "Multisample Antialiasing",	gl_vid_multisample,				"Dumb4_MultiSampling"
+}
+
+OptionValue "Dumb4_MultiSampling"
+{
+	1, "Off"
+	2, "2x"
+	4, "4x"
+	6, "6x"
+	8, "8x"
+	16, "16x"
+}

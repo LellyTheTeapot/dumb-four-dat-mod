@@ -1,0 +1,29 @@
+SPECIAL THANKS:
+-Id Software for this exciting upcoming game and the majority of the sounds, music and other content used in this mod.
+-Im TPhentr for the original WAD (Sprite rips, DECORATE, etc)
+-wildweasel for his website, Gunlabs, teaching me how to make new complex DECORATE weapons, And for inspiring me to do more stuff like this in the future.
+-Myself for making a shitty custom status bar.
+-The people who made the DECORATE programming language for the most simplest, yet most powerful programming languages I have ever used.
+-GoAnimate and my friends on GoAnimate for my fucking face being pasted everywhere.
+SOUNDS:
+-id Software for the Doom 3 sound effects.
+-Nintendo for the Splatoon sound effects used in this mod.
+-Raven Software for the Quake 4 sound effects and a Jedi Knight III: Jedi Academy sound effect used in this mod.
+-The people who made the sound effects I took from Project Brutality.
+-Valve Software for the Half-Life 2 sound effects used in this mod.
+-The person who made some sound that was taken from Russian Overkill.
+-The Sikkmod team for some of the gun firing sound effects.
+-SillyGoose for the Halo 4 sound rips.
+GRAPHICS:
+-TPhentr for Sprite Rips
+-Some Blood and Shadow Warrior, etc gore sprites I took from Nash's Gore Mod.
+-The person who made the revenant cannon sprites I also took form Project Brutality.
+-The person who made the Nuke Cell ammo sprite from Russian Overkill.
+-Valve Software for custom '-noflat-' texture.
+MUSIC:
+-Axtton for the Doom 4 theme rip.
+-Bethesda for composing the Doom 4 soundtrack.
+DECORATE CODE AND ACS CODE:
+-TPhentr, Nash, Tormentor667 and other people on Realm667 for the DECORATE code used as bases when I wrote/modified them.
+-The guys responsible for the content of the monsters on Realm667.
+-Agent ME and Isle for the double jump script.
